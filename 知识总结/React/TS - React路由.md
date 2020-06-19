@@ -12,7 +12,7 @@ npm install react-router-dom @types/react-router-dom
 
 封装路由：
 
-路由配置：router/index.ts
+路由配置：router/**index.ts**
 
 ```react
 import Login from '../views/Login'
