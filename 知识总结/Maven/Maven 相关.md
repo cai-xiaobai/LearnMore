@@ -18,7 +18,11 @@
 
 其实 packageName 和 version 好理解。程序员写的类，肯定要放在一个标准包下或标准包的子包下，packageName 指标准包；version 是当前代码的版本号。
 
+groupid表示项目的包名,artifactid表示项目名 
+
 这里的 groupId 和 artifactId 同部门名称和组名称一样，用来唯一确定一个项目（软件、功能）。有些地方会把这两个描述的信息合起来叫“坐标”。
+
+
 
 
 
@@ -36,6 +40,8 @@
 2. 输入“mvn compile”，按 Enter 键编译源代码。
 3. 输入“mvn test”，按 Enter 键运行测试案例进行测试。
 4. 输入“mvn install”，按 Enter 键，将当前代码打成 jar 包，安装到 Maven 的本地管理目录下，其他 Maven 工程只要指定坐标就可以使用。
+
+
 
 
 
